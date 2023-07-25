@@ -1,3 +1,11 @@
+import PageHeader from '../../components/PageHeader';
+import ContactForm from '../../components/ContactForm';
+
 export default function NewContact() {
-  return <h1>NewContact</h1>;
+  return (
+    <>
+      <PageHeader title="Novo contato" />
+      <ContactForm buttonLabel="Cadastrar" />
+    </>
+  );
 }
