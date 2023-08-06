@@ -1,6 +1,7 @@
 import { styled } from 'styled-components';
 
 export const Container = styled.div`
+  position: relative;
   margin-top: 32px;
 `;
 
@@ -30,6 +31,7 @@ export const Header = styled.header`
     }
   }
 `;
+
 export const InputSearchContainer = styled.div`
   margin-bottom: 32px;
   width: 100%;
@@ -65,7 +67,6 @@ export const ListContainer = styled.div`
       font-weight: bold;
       color: ${({ theme }) => theme.colors.primary.main};
     }
-
   }
 `;
 

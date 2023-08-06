@@ -1,4 +1,4 @@
-import { styled, css } from 'styled-components';
+import { styled } from 'styled-components';
 
 export const Overlay = styled.div`
   background: rgba(0,0,0,0.6);
@@ -37,7 +37,6 @@ export const Footer = styled.footer`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-
 
   .cancel-button{
     background: transparent;
