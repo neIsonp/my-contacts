@@ -12,7 +12,8 @@ import Loader from '../../components/Loader';
 export default function Home() {
   return (
     <Container>
-      <Loader />
+
+      {/* <Loader /> */}
 
       {/* <Modal danger /> */}
 
